@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7424da5069b3094389ebbbd7e50426a, type: 3}
+  m_Name: ClothesInventory
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: bac40644817cf6d4d8c1d0a92a4b3410, type: 2}
+    - {fileID: 11400000, guid: d95bb8cdd2d6bc8468f17a02ba5fb249, type: 2}
+    - {fileID: 11400000, guid: a3fbf37f433a7684cbe4c7e6d55f9453, type: 2}
+    - {fileID: 11400000, guid: 218034afad3f4fa4a89bc45258e3b2c8, type: 2}
+    - {fileID: 11400000, guid: c10221c12b1305e42bee5c669a85bcbe, type: 2}
+    - {fileID: 11400000, guid: d4998e547484bb545abbf683b45fe042, type: 2}
+    - {fileID: 11400000, guid: ec472cedc87030e4e8b5ae707a65ee1d, type: 2}
+    - {fileID: 11400000, guid: 01e7aecfdf15ca64f8e2d6d9a8c89512, type: 2}
+    - {fileID: 11400000, guid: e7e14c02b3ecaa94a8d096cca12b5d25, type: 2}
+    - {fileID: 11400000, guid: fba282839b74dd940b700041b0502cdc, type: 2}
+    - {fileID: 11400000, guid: f71d1fdf7077da549ad7f64b83d1df95, type: 2}
+    - {fileID: 11400000, guid: d5f8c63086afdc5409394cea09c00773, type: 2}
+    - {fileID: 11400000, guid: 7658d4ea020a0ba44858e2fd57dab8f2, type: 2}
+    - {fileID: 11400000, guid: eaabd9d393974aa4888c4eca14412b0f, type: 2}
+    - {fileID: 11400000, guid: f7f3900a1a3b2f5468706079f24eac93, type: 2}
+    - {fileID: 11400000, guid: 778fe0079aa7a83419476597dd903c49, type: 2}
+    - {fileID: 11400000, guid: 7dc28d2649268ad47a5378787e437212, type: 2}
+    - {fileID: 11400000, guid: d0e2642604275b44da68e13bd30d1d46, type: 2}
+    - {fileID: 11400000, guid: d1183be102a9a124fac3ebba40a34656, type: 2}
+    - {fileID: 11400000, guid: 0c514b0229c500a45a6d46220489879c, type: 2}
+    - {fileID: 11400000, guid: 8a769286cde05c44f8ba7b1c2d537a81, type: 2}
+    - {fileID: 11400000, guid: eb1df1cba8a4bcf47a37578799123227, type: 2}
+    - {fileID: 11400000, guid: 238f6a925d23aba4aa1c667bf97aa417, type: 2}
+    - {fileID: 11400000, guid: b21f488aea2d3e54d98b7862fb5b8fcb, type: 2}
+    - {fileID: 11400000, guid: 2af367bd1b1c00d45916dc62a9a88cc4, type: 2}
+    - {fileID: 11400000, guid: da823d40b7cc19a4eb1dfa062993698e, type: 2}
+    - {fileID: 11400000, guid: a8c09cd87675c1c48960ba2293c5ceab, type: 2}
+    - {fileID: 11400000, guid: cc2ddf2b7ace5ca44827b42cfe6953ba, type: 2}
+    - {fileID: 11400000, guid: e28fc32f3182e444e9d0f568a131f3cb, type: 2}
+    - {fileID: 11400000, guid: 4d46ab7b03e84fb498bf2d34fe363bb6, type: 2}
+    - {fileID: 11400000, guid: 0dbe11061ae17d042986a8f8b93fcbf7, type: 2}
+    - {fileID: 11400000, guid: c20e054f66a30754285d50904c5c6a0b, type: 2}
+    - {fileID: 11400000, guid: 0559cae74438ee44294fe68e89243355, type: 2}
+    - {fileID: 11400000, guid: 1606a019898eda549b34895ce617bee0, type: 2}
+    - {fileID: 11400000, guid: c2ab59df6a723654f93da024ce45d7be, type: 2}
+    - {fileID: 11400000, guid: e6946ade77924e345a627ea8f9e2b059, type: 2}
+    - {fileID: 11400000, guid: 49eeadb5da9db994497ab4a8c6ee4c82, type: 2}
+    - {fileID: 11400000, guid: 4054f4d00d2403341b8748347e923768, type: 2}
+    - {fileID: 11400000, guid: 5ef2868efbfb1de4580777162d5f0c9d, type: 2}
+    - {fileID: 11400000, guid: 7be32091e63872c41854139d44a190c3, type: 2}
+    - {fileID: 11400000, guid: 5c7f0f134ffd95e4f97b0dc80be2418f, type: 2}
+    - {fileID: 11400000, guid: 17e9bad47084ba4468b9bbed748c0f8b, type: 2}
+    - {fileID: 11400000, guid: e739b709dd08e444cb34ead402bfa405, type: 2}
+    - {fileID: 11400000, guid: 1a7a50f667d36154197de82846dd89c1, type: 2}
+    - {fileID: 11400000, guid: a6a388b59b387454b85938b9dcee1ede, type: 2}
+    - {fileID: 11400000, guid: 9742bd5ab659b0a409db6e37fa3ecdc8, type: 2}
+    - {fileID: 11400000, guid: bcfe6ade7a499a2488a42ce9c5408931, type: 2}
+    - {fileID: 11400000, guid: ff51a325fbb7c00438f375afcd3e1d36, type: 2}
+    - {fileID: 11400000, guid: 4a82f7fcb1851a743b4f7ad8d7794b8e, type: 2}
+    - {fileID: 11400000, guid: 5d37de023899b964c961aad0c399bb95, type: 2}
+    - {fileID: 11400000, guid: 215a704f218fc7b4d8b82555f5bc66ed, type: 2}
+    - {fileID: 11400000, guid: 75ce407e581a6534dabc56cb834586e2, type: 2}
+    - {fileID: 11400000, guid: 03b52027fc118d84295df1a416efe585, type: 2}
+    - {fileID: 11400000, guid: 83cbf39c9e0d63b41b066bbd2d37faa5, type: 2}
+    - {fileID: 11400000, guid: 7081f358d7cba6b43b0bbd6570742b7e, type: 2}
+    - {fileID: 11400000, guid: 1f271d34f07832d47b7f3608f1ae5541, type: 2}
+    - {fileID: 11400000, guid: 812c508e8e398a1469a6a4439f8a048f, type: 2}
+    - {fileID: 11400000, guid: c911cfc69e82fc945ad83efd9d4fdd26, type: 2}
+    - {fileID: 11400000, guid: fe32da15ea5816f4f979ffc45c59b8f5, type: 2}
+    - {fileID: 11400000, guid: 29712d3a19cce654aacd6110e82afbc3, type: 2}
+    - {fileID: 11400000, guid: 1d7b1655f985a794f90ba8ca9d0c9dac, type: 2}
+    - {fileID: 11400000, guid: 420a0c985d605d544a0cce04f9afc4d5, type: 2}
+    - {fileID: 11400000, guid: 29f7e7e264df5b14ca7faea254ba715b, type: 2}
+    - {fileID: 11400000, guid: 891dc63879c9017449558a2eab8226a1, type: 2}
+    - {fileID: 11400000, guid: b96d925e42771d648b30ee059cc27764, type: 2}
+    - {fileID: 11400000, guid: b3b1a0b8c8a6afd42b21357111b66f39, type: 2}
+    - {fileID: 11400000, guid: fe6369c1b5ecd3d4eac713973ddd09b6, type: 2}
+    - {fileID: 11400000, guid: 8868d7cc126cee5459eb0526355fb130, type: 2}
+    - {fileID: 11400000, guid: 50259912ba322f742bed8a1426419b16, type: 2}
+    - {fileID: 11400000, guid: 7b2dc28d4e71b8244be0afddd3515550, type: 2}
+    - {fileID: 11400000, guid: 9e88d6521b7b2744e9f2c50ceb25430a, type: 2}
+    - {fileID: 11400000, guid: 71f72f15c88100147afe7543f77feead, type: 2}
+    - {fileID: 11400000, guid: c7e89aff087080442b5b7a08d6c9e7ee, type: 2}
+    - {fileID: 11400000, guid: 60ba7efb3ad465d42ad47243752c8018, type: 2}
+    - {fileID: 11400000, guid: f3d3b657c22002645ab8d75d3ea395e4, type: 2}
+    - {fileID: 11400000, guid: e3c4ec2b62f55004db2b4b86e63c9f5b, type: 2}
+    - {fileID: 11400000, guid: c132637daeebae1468964b48c88ce19c, type: 2}
+    - {fileID: 11400000, guid: 8731618b4b4c6c145bf41d97e7a9799c, type: 2}
+    - {fileID: 11400000, guid: e3cb3780bcd2a0d40a4e3dff9eecac5d, type: 2}
+    - {fileID: 11400000, guid: 77b21adcc1b1dee4396135d2456a9fbb, type: 2}
+    - {fileID: 11400000, guid: d38d74b6e79192746b396f8217015aeb, type: 2}
+    - {fileID: 11400000, guid: c22e9015c14c83e408b3a51572a74351, type: 2}
+    - {fileID: 11400000, guid: e948fb7daeccb064ea723e0c612b7dae, type: 2}
+    - {fileID: 11400000, guid: aa6b02c1b6aae0f4682e2258ad798f85, type: 2}
+    - {fileID: 11400000, guid: 912582de31556ac45bb4dade5e92b4eb, type: 2}
+    - {fileID: 11400000, guid: c2c52f70432ac304ba7e6336a4222bd1, type: 2}
+    - {fileID: 11400000, guid: 55b79142713d67046bebc5be16b23443, type: 2}
+    - {fileID: 11400000, guid: b8435f52ba6491c42a9df534d991713f, type: 2}
+    - {fileID: 11400000, guid: 8e8fb4c61b4250d4ab58639f4b7c2746, type: 2}
+    - {fileID: 11400000, guid: 99597015e3330b947a95a233bedc286d, type: 2}
+    - {fileID: 11400000, guid: 66fdb194edbeeed45b7548f3070fab43, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: items
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[ClothesShop.Collectibles.ICollectible,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 91
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 10
+      Data: 40
+    - Name: 
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 10
+      Data: 44
+    - Name: 
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 10
+      Data: 50
+    - Name: 
+      Entry: 10
+      Data: 51
+    - Name: 
+      Entry: 10
+      Data: 52
+    - Name: 
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 10
+      Data: 54
+    - Name: 
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 10
+      Data: 56
+    - Name: 
+      Entry: 10
+      Data: 57
+    - Name: 
+      Entry: 10
+      Data: 58
+    - Name: 
+      Entry: 10
+      Data: 59
+    - Name: 
+      Entry: 10
+      Data: 60
+    - Name: 
+      Entry: 10
+      Data: 61
+    - Name: 
+      Entry: 10
+      Data: 62
+    - Name: 
+      Entry: 10
+      Data: 63
+    - Name: 
+      Entry: 10
+      Data: 64
+    - Name: 
+      Entry: 10
+      Data: 65
+    - Name: 
+      Entry: 10
+      Data: 66
+    - Name: 
+      Entry: 10
+      Data: 67
+    - Name: 
+      Entry: 10
+      Data: 68
+    - Name: 
+      Entry: 10
+      Data: 69
+    - Name: 
+      Entry: 10
+      Data: 70
+    - Name: 
+      Entry: 10
+      Data: 71
+    - Name: 
+      Entry: 10
+      Data: 72
+    - Name: 
+      Entry: 10
+      Data: 73
+    - Name: 
+      Entry: 10
+      Data: 74
+    - Name: 
+      Entry: 10
+      Data: 75
+    - Name: 
+      Entry: 10
+      Data: 76
+    - Name: 
+      Entry: 10
+      Data: 77
+    - Name: 
+      Entry: 10
+      Data: 78
+    - Name: 
+      Entry: 10
+      Data: 79
+    - Name: 
+      Entry: 10
+      Data: 80
+    - Name: 
+      Entry: 10
+      Data: 81
+    - Name: 
+      Entry: 10
+      Data: 82
+    - Name: 
+      Entry: 10
+      Data: 83
+    - Name: 
+      Entry: 10
+      Data: 84
+    - Name: 
+      Entry: 10
+      Data: 85
+    - Name: 
+      Entry: 10
+      Data: 86
+    - Name: 
+      Entry: 10
+      Data: 87
+    - Name: 
+      Entry: 10
+      Data: 88
+    - Name: 
+      Entry: 10
+      Data: 89
+    - Name: 
+      Entry: 10
+      Data: 90
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  equipment: {fileID: 0}
