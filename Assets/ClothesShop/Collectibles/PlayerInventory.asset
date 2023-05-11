@@ -35,4 +35,4 @@ MonoBehaviour:
       Entry: 8
       Data: 
   equipment: {fileID: 11400000, guid: 64bf656a87fd0de44bf248f85bfdb5ee, type: 2}
-  _money: 285
+  _money: 270
